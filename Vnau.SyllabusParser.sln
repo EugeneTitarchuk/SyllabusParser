@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vnau.SyllabusParser.Cli", "Vnau.SyllabusParser.Cli\Vnau.SyllabusParser.Cli.csproj", "{935DB59E-00EF-4AA9-8F33-7DE5888ECE36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vnau.SyllabusParser.Core", "Vnau.SyllabusParser.Core\Vnau.SyllabusParser.Core.csproj", "{BB600A24-3461-42EA-8C73-936527F23CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{935DB59E-00EF-4AA9-8F33-7DE5888ECE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935DB59E-00EF-4AA9-8F33-7DE5888ECE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935DB59E-00EF-4AA9-8F33-7DE5888ECE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935DB59E-00EF-4AA9-8F33-7DE5888ECE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB600A24-3461-42EA-8C73-936527F23CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB600A24-3461-42EA-8C73-936527F23CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB600A24-3461-42EA-8C73-936527F23CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB600A24-3461-42EA-8C73-936527F23CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF4D40E0-B082-48E8-A278-0060A81AE987}
+	EndGlobalSection
+EndGlobal
