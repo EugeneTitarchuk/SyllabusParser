@@ -21,7 +21,7 @@ namespace Vnau.SyllabusParser.Cli
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
-            var fileEntries = Directory.GetFiles("D:\\Syllabus\\opp\\ГОТО 15.04");
+            var fileEntries = Directory.GetFiles("D:\\temp\\opp\\ГОТО 15.04");
             fileEntries.OrderBy(s => s);
 
             var parser = new Parser(options.KnownSubjects, options.SectionNames);
